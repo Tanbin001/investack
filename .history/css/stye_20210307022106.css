@@ -366,6 +366,7 @@ p {
 
 /* Feature */
 
+<<<<<<< Updated upstream
 .amazing-works{
     background-color: #f8fcfe;
 }
@@ -392,6 +393,8 @@ p {
 .nav-items a:hover::after {
     transform: translateX(-50%) scaleX(1);
 }
+=======
+>>>>>>> Stashed changes
 .page-link{
     color: black !important;
 }
@@ -752,5 +755,11 @@ p {
 .ban-2 .btn-sm{
     margin: 50px;
 }
-
+  
+  /* div.transbox p {
+    margin: 20% 20%;
+    font-weight: bold;
+    color: #000000;
+  } */
+  
 /* banner 2 */
