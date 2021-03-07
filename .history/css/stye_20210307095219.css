@@ -1016,3 +1016,6 @@ input[type=submit]:hover {
     color: #f8fcfe;
     text-align: left;
 }
+.foot-part1 span{
+    font-size: 8px;
+}

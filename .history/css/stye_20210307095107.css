@@ -1012,7 +1012,8 @@ input[type=submit]:hover {
     font-size: 8px;
 }
 .foot-part1 p{
-    font-size: 11px;
-    color: #f8fcfe;
-    text-align: left;
+    font-size: 8px;
+}
+.foot-part1 span{
+    font-size: 8px;
 }

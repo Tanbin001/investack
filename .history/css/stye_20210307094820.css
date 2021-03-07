@@ -1008,11 +1008,5 @@ input[type=submit]:hover {
 }
 
 .foot{
-    background-color: #37464e;
-    font-size: 8px;
-}
-.foot-part1 p{
-    font-size: 11px;
-    color: #f8fcfe;
-    text-align: left;
+    background-color: #2336411;
 }
