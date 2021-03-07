@@ -306,7 +306,14 @@ p {
     font-weight: bold;
     margin: 50px;
 }
-
+.txt-white{
+    color: white !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+.txt-white:hover{
+    color: #18cfab !important;
+}
 .team {
     padding-top: 80px;
     /* background-color: #090f14; */
@@ -757,7 +764,6 @@ p {
 .ban-2 .btn-sm{
     margin: 50px;
 }
-
 /* banner 2 */
 /* what */
 .what{
@@ -989,7 +995,7 @@ input[type=submit] {
   }
   
 input[type=submit]:hover {
-    background-color: #18cfab8;
+    background-color: #18cfab;
   }
   
 .tch-frm{
