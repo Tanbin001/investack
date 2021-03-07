@@ -1018,11 +1018,21 @@ input[type=submit]:hover {
 }
 
 .foot{
-    background-color: #37464e;
+    background-color: #1c2b33;
     font-size: 8px;
+}
+.foot h4{
+    font-weight: bold !important;
 }
 .foot-part1 p{
     font-size: 11px;
     color: #f8fcfe;
     text-align: left;
+}
+
+.foot-part2 h5{
+    color: white !important;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px !important;
 }
