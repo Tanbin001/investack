@@ -996,10 +996,7 @@ input[type=submit]:hover {
     /* padding-left: 20px; */
 }
 /* touch */
-.text-center{
-    color: white;
-    font-size: 10px;
-}
+
 .text-center span{
     color: white;
 }

@@ -980,7 +980,7 @@ input[type=text], select, textarea {
   }
   
 input[type=submit] {
-    background-color:#18cfab;
+    background-color: #4CAF50;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -989,20 +989,10 @@ input[type=submit] {
   }
   
 input[type=submit]:hover {
-    background-color: #18cfab8;
+    background-color: #45a049;
   }
   
 .tch-frm{
     /* padding-left: 20px; */
 }
 /* touch */
-.text-center{
-    color: white;
-    font-size: 10px;
-}
-.text-center span{
-    color: white;
-}
-.text-center:hover span{
-    color: #18cfab;
-}

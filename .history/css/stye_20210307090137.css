@@ -965,8 +965,7 @@ p {
     background-color: grey;
 }
 .touch2{
-    width: 50%;
-    margin: 0 auto;
+margin: 0 auto;
 }
 input[type=text], select, textarea {
     width: 100%;
@@ -980,29 +979,19 @@ input[type=text], select, textarea {
   }
   
 input[type=submit] {
-    background-color:#18cfab;
+    background-color: #4CAF50;
     color: white;
-    padding: 10px 15px;
+    padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
   
 input[type=submit]:hover {
-    background-color: #18cfab8;
+    background-color: #45a049;
   }
   
 .tch-frm{
     /* padding-left: 20px; */
 }
 /* touch */
-.text-center{
-    color: white;
-    font-size: 10px;
-}
-.text-center span{
-    color: white;
-}
-.text-center:hover span{
-    color: #18cfab;
-}
