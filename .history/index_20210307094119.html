@@ -214,7 +214,7 @@
     <!-- ABOUT US -->
 
     <!-- feature -->
-    <section>
+    <section class="amazing-works">
         <div class="container" id="nav-btn">
             <div class="feature-head">
                 <h3 class="double-underline">Our Amazing Works</h3>
@@ -233,81 +233,100 @@
             
         </div>
 
-        <div class="container filter-roll">
+        <div class="container filter-sec">
             <div class="row">
 
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filterElements graphic">Orange</div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filterElements graphic">Giraffe</div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filterElements graphic">Cheetah</div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filterElements graphic">Lion</div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filter-roll">
+                    <img src="images/work/work1.png" alt="">
+                    <div>
+                        <div class="icons">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filter-roll">
+                    <img src="images/work/work2.png" alt="">
+                    <div>
+                        <div class="icons">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filter-roll">
+                    <img src="images/work/work3.png" alt="">
+                    <div>
+                        <div class="icons">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filter-roll">
+                    <img src="images/work/work4.png" alt="">
+                    <div>
+                        <div class="icons">
+                        </div>
+                    </div>
+                </div>
 
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filterElements web">Guava</div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filterElements web">Dog</div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filterElements web">Banana</div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filterElements web">Mango</div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filter-roll">
+                    <img src="images/work/work5.png" alt="">
+                    <div>
+                        <div class="icons">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filter-roll">
+                    <img src="images/work/work6.png" alt="">
+                    <div>
+                        <div class="icons">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filter-roll">
+                    <img src="images/work/work7.png" alt="">
+                    <div>
+                        <div class="icons">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filter-roll">
+                    <img src="images/work/work8.png" alt="">
+                    <div>
+                        <div class="icons">
+                        </div>
+                    </div>
+                </div>
 
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filterElements wp">Bull</div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filterElements wp">Bull</div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filterElements wp">Bull</div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filterElements wp">Bull</div>
-
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filterElements landing">Bull</div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filterElements landing">Bull</div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filterElements landing">Bull</div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filterElements landing">Bull</div>
-
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filter-roll">
+                    <img src="images/work/work9.png" alt="">
+                    <div>
+                        <div class="icons">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filter-roll">
+                    <img src="images/work/work10.png" alt="">
+                    <div>
+                        <div class="icons">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filter-roll">
+                    <img src="images/work/work11.png" alt="">
+                    <div>
+                        <div class="icons">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filter-roll">
+                    <img src="images/work/work14.png" alt="">
+                    <div>
+                        <div class="icons">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="but">
             <button class="button"><i class="fas fa-plus" style="color: white;"></i> Load More</button>
         </div>
-          <!-- script feature-->
-
-          <script>
-            filterSelection("all");
-            function filterSelection(c) {
-               var x, i;
-               x = document.querySelectorAll(".filterElements");
-               if (c == "all") c = "";
-               Array.from(x).forEach(item => {
-                  removeActiveClass(item, "show");
-                  if (item.className.indexOf(c) > -1) addActiveClass(item, "show");
-               });
-            }
-            function addActiveClass(ele, name) {
-               var i, arr1, arr2;
-               arr1 = ele.className.split(" ");
-               arr2 = name.split(" ");
-               for (i = 0; i < arr2.length; i++) {
-                  if (arr1.indexOf(arr2[i]) == -1) {
-                     ele.className += " " + arr2[i];
-                  }
-               }
-            }
-            function removeActiveClass(ele, name) {
-               var i, arr1, arr2;
-               arr1 = ele.className.split(" ");
-               arr2 = name.split(" ");
-               for (i = 0; i < arr2.length; i++) {
-                  while (arr1.indexOf(arr2[i]) > -1) {
-                     arr1.splice(arr1.indexOf(arr2[i]), 1);
-                  }
-               }
-               ele.className = arr1.join(" ");
-            }
-            var filterBtns = document.querySelector(".filterBtns");
-            var btns = filterBtns.getElementsByTagName("button");
-            for (var i = 0; i < btns.length; i++) {
-               btns[i].addEventListener("click", function() {
-                  var current = document.getElementsByClassName("active");
-                  current[0].className = current[0].className.replace(" active", "");
-                  this.className += " active";
-               });
-            }
-         </script>
-         
-
-          <!-- script feature -->
     </section>
     <!-- feature -->
 
@@ -853,14 +872,8 @@
     <section class="foot">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-8 col-sm-12 foot-part1">
-                    <h4 class="title">inve<span class="clr-cn">stack</span></h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                        Quam ut nihil molestiae totam explicabo sunt dolorum. 
-                        Quaerat inventore, quidem nesciunt cupiditate, 
-                        eius minima repellat eaque mollitia quod ducimus numquam vero.
-                    </p>
-                    <span>Office:</span> <br>795 Folsom Ave. suite 600<br> San Francisco CA 94107
+                <div class="col-xl-4 col-lg-4 col-md-8 col-sm-12">
+
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-8 col-sm-12">
 
