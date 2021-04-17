@@ -937,7 +937,8 @@ p {
     color: white;
     font-size: 13px;
     padding-top: 15px;
-    text-align: center;
+    /* text-align: center; */
+    padding-left: 25%;
 }
 .lay ul li i{
     padding-left: 10px;
@@ -958,52 +959,61 @@ p {
 
 /* touch */
 
-.touch{
-    /* background-color: darkgrey; */
-    width: 100%;
+.touch-1{
     height: 600px;
-
-}
-.touch-cont{
-    padding-top: 80px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 15px 100px;
-}
-.touch1{
-    height: 450px;
-    background-color: grey;
-}
-.touch2{
-    width: 50%;
-    margin: 0 auto;
-}
-input[type=text], select, textarea {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-input[type=submit] {
-    background-color:#18cfab;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-input[type=submit]:hover {
-    background-color: #18cfab;
-  }
-  
-.tch-frm{
-    /* padding-left: 20px; */
+    background-color: #008CBA;
+    margin: auto auto;
+}
+.touch-2{
+    height: 600px;
+    width: 100%;
+    background-color: #fff;
+    margin: auto 20px;
+}
+.form{
+    padding: 40px;
+}
+.para-head {
+    text-align: center;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.para-head h3 {
+    align-items: center;
+    color: #4e4e4e;
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.para h3{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+input[type=text], input[type=email], textarea{
+    width: 85%;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid;
+    border-color: cadetblue;
+    border-radius: 3px;
+}
+.send-btn{
+    background: #18cfab;
+    width: 85%;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px;
 }
 /* touch */
 .text-center{
