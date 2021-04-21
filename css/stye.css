@@ -1027,22 +1027,64 @@ input[type=text], input[type=email], textarea{
     color: #18cfab;
 }
 
+/* FOOTER */
+
 .foot{
     background-color: #1c2b33;
     font-size: 8px;
+    height: 450px;
 }
 .foot h4{
     font-weight: bold !important;
 }
 .foot-part1 p{
     font-size: 11px;
-    color: #f8fcfe;
+    color: #586166;
+    text-align: left;
+}
+.foot-part1 .adrs{
+    font-size: 11px;
+    color: #596074;
     text-align: left;
 }
 
 .foot-part2 h5{
     color: white !important;
-    font-weight: bold;
-    text-align: center;
+    text-align: left;
     font-size: 20px !important;
+}
+.ft-post p{
+    font-size: 11px;
+}
+.ft-post h6:hover{
+    color: #18cfab;
+    cursor: pointer;
+}
+.foot-part3 h5{
+    color: white !important;
+    text-align: left;
+    font-size: 20px !important;
+}
+.post-head{
+    margin-bottom: 8%;
+}
+.img-tag{
+    margin: 5px auto;
+    padding-left: 20%;
+    height: 80px;
+}
+.ft-post input[type=email]{
+    width: 50% !important;
+    background: #192f3b !important;
+    border: 0px !important;
+    padding: 10px !important;
+}
+.go-btn{
+    border: none;
+    padding: 6px;
+    margin: -2px;
+    font-size: 13px;
+    font-weight: bold;
+    background: #294453;
+    color: #18cfab;
 }
