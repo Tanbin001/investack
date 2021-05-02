@@ -402,13 +402,13 @@ p {
 .page-link{
     color: black !important;
 }
-.page-item a:hover {
+.page-item:hover {
     color: #18cfab !important;
     /*font-size: 13pt;*/
     border-top: 2px solid;
 }
 
-.page-item a:after {
+.page-item:after {
     content: '';
     left: 0;
     right: 0;
@@ -426,7 +426,7 @@ p {
 
 }
  .filter-sec{
-    margin: 0px 100px;
+    /* margin: 0px 100px; */
  }
  .filter-roll {
     position: relative;
@@ -1088,3 +1088,39 @@ input[type=text], input[type=email], textarea{
     background: #294453;
     color: #18cfab;
 }
+
+/* FIlter menu */
+.filterDiv {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .container {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: 1px solid steelblue;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+  /* Filter Menu */
