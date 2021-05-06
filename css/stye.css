@@ -434,7 +434,7 @@ p {
     width: 180px;
     transition-duration: 0.4s;
     animation: winanim 0.5s ;
--webkit-backface-visibility:visible;
+    -webkit-backface-visibility:visible;
     backface-visibility:visible;
     
 }
@@ -446,6 +446,7 @@ p {
 
 .filter-roll img:hover{
     opacity: 0;
+    transition: 2s linear ease-in;
 }
 
  .show {
@@ -1092,12 +1093,13 @@ input[type=text], input[type=email], textarea{
 /* FIlter menu */
 .filterDiv {
     float: left;
-    background-color: #2196F3;
+    background-image: url('../images/tag/tag1.png');
     color: #ffffff;
-    width: 100px;
+    width: 100%;
+    height: auto;
     line-height: 100px;
     text-align: center;
-    margin: 2px;
+    padding: 0px;
     display: none;
   }
   
@@ -1122,5 +1124,8 @@ input[type=text], input[type=email], textarea{
   .btn.active {
     background-color: #666;
     color: white;
+  }
+  .menu{
+      margin: 0 auto;
   }
   /* Filter Menu */
