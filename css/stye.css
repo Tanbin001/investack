@@ -171,12 +171,16 @@ p {
 }
 .btn{
     margin: 0 25px;
+    font-size: 10px;
+    transition: font-size 2s;
 }
-.banner-sec .btn {
+.btn:hover {
     border-top-width: 5px;
     border-top-color: white;
     text-decoration: white;
     border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .banner-con {
@@ -221,15 +225,32 @@ p {
     color: #18cfab !important;
 }
 
+.box-blk h4:hover{
+    font-size: 20px !important;
+    cursor: pointer;
+    color: #fff;
+}
+.box-cn h4:hover{
+    font-size: 20px !important;
+    cursor: pointer;
+    color: #1c2a33;
+}
+
 .b-icons {
     font-size: 300%;
     margin-top: 50px !important;
+    transition: font-size 1s ;
+}
+.b-icons:hover{
+    font-size: 400%;
+    /* transition-delay: 5s ease-in-out; */
 }
 
 .b-icons h4 {
     margin-top: 20px !important;
     font-size: 13px !important;
     font-weight: bold !important;
+    transition: font-size 1s ;
 }
 
 
@@ -265,6 +286,9 @@ p {
 .double-underline:after {
     bottom: -25px;
     left: 40%;
+}
+.animate__animated.animate__fadeInUp{
+    --animate-duration: 2s;
 }
 
 .double-underline:before {
@@ -393,7 +417,7 @@ p {
     width: 100%;
     height: 5px;
     background-color: #18cfab;
-    transition: 250ms;
+    transition: width 1s;
 }
 
 .nav-items a:hover::after {
@@ -749,7 +773,13 @@ p {
     background-size: cover;
 }
 
-.banner-sec-2 .btn {
+/* .banner-sec-2 .btn {
+    border-top-width: 5px;
+    border-top-color: white;
+    text-decoration: white;
+    border-radius: 5px;
+} */
+.btn:hover{
     border-top-width: 5px;
     border-top-color: white;
     text-decoration: white;
