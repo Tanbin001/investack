@@ -12,8 +12,8 @@ $(document).ready(function(){
     });
     $(".feature-text").hover(function(){
 
-        $(".light").addClass("animate__animated animate__flipInX");
-        $(".light").css("fontSize", "20px");
+        // $(".light").addClass("animate__animated animate__heartBeat");
+        // $(".light").css("fontSize", "20px");
 
     });
   

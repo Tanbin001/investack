@@ -170,7 +170,7 @@ p {
     background:rgba(0,0,0,0.4);
 }
 .btn{
-    margin: 0 25px;
+    margin: 0 auto;
     font-size: 10px;
     transition: font-size 2s;
 }
@@ -179,7 +179,7 @@ p {
     border-top-color: white;
     text-decoration: white;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -725,6 +725,16 @@ p {
     margin-top: 34px;
     border-radius: 50%;
     display: inline-block;
+    transition: height 2s ease-in-out;
+    transition: width 0s ease-in-out;
+  }
+  .dot:hover{
+    height: 120px;
+    width: 120px;
+    margin-top: 34px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
   }
   .box-icon{
     margin-top: 25px;
@@ -1125,7 +1135,7 @@ input[type=text], input[type=email], textarea{
     float: left;
     background-image: url('../images/tag/tag1.png');
     color: #ffffff;
-    width: 100%;
+    width: 99%;
     height: auto;
     line-height: 100px;
     text-align: center;
@@ -1156,6 +1166,34 @@ input[type=text], input[type=email], textarea{
     color: white;
   }
   .menu{
-      margin: 0 auto;
+    margin: 0px 24%;
   }
   /* Filter Menu */
+
+.light:hover{
+    letter-spacing: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.con{
+    animation: shake 2s infinite;
+    animation-direction: alternate;
+}
+.con:hover{
+    cursor: pointer;
+}
+
+@keyframes shake {
+    0% {
+      transform: rotate(-40deg);
+    }
+    100% {
+      transform: rotate(20deg);
+    }
+  }
+  .about-head h3,
+  .feature-head h3{
+    animation: bounce;
+    animation-duration: 2s;
+  }
