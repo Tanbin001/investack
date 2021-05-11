@@ -1,4 +1,5 @@
-$(document).ready(function(){
+$(document).ready(function()
+{
 
     $("#purchase-btn").click(function(){
   
@@ -10,11 +11,17 @@ $(document).ready(function(){
         $(".first-h3").slideToggle(500);
   
     });
-    $(".feature-text").hover(function(){
-
-        // $(".light").addClass("animate__animated animate__heartBeat");
-        // $(".light").css("fontSize", "20px");
-
+    $(".feature-text").hover(function()
+    {
+        $("#dash").addClass("con");}, 
+        function(){
+        $("#dash").removeClass("con");
     });
-  
-  });
+    // $("#dash, #dash1").css({
+        //     "animation": "flip",
+        //     "animation-duration": "4s",
+        //     "font-size": "50px",
+        //     "transition": "2s ease-in-out"
+        // });
+
+});
